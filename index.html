@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>zodiac sign</title>
+	<link rel="shortcut icon" href="#">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<span>what is your name??</span>
+	<input type="text" id="input" placeholder="username">
+	<input type="text" id="password" placeholder="password">
+	<button type="button" onclick="getInfo()">click</button>
+	<h2 id="answer"></h2>
+	<div>
+		<input type="text" id="newusername" placeholder="newusername">
+		<input type="text" id="newpassword" placeholder="newpassword">
+		<button type="button" onclick="getResult()">Sign up</button>
+	</div>
+	<div>
+		<h2>Age confirmation</h2>
+		<input type="number" id="age" placeholder="how old are you?">
+		<button type="button" onclick="getAnswer()">click</button>
+		<p id="answer"></p>
+	</div>
+	<div>
+		<h2>Guessing Game</h2>
+		<input type="number" id="guess" placeholder="guess a number">
+		<button type="button" onclick="guessNo()">Guess</button>
+		<h3 id="guessedAnswer"></h3>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
